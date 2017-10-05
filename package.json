@@ -1,0 +1,33 @@
+{
+  "name": "opensource",
+  "version": "1.0.0",
+  "description": "Globo.com Open Source Community Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globocom/opensource.git"
+  },
+  "keywords": [
+    "opensource",
+    "globo",
+    "gcom",
+    "community"
+  ],
+  "author": "Globo.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/globocom/opensource/issues"
+  },
+  "homepage": "https://github.com/globocom/opensource#readme",
+  "dependencies": {
+    "next": "^4.0.0-beta.3",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  }
+}
