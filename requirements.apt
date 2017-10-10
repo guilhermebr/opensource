@@ -1,2 +1,4 @@
 node-gyp
 make
+build-essential
+git
