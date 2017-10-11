@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js -p $PORT"
+    "start": "NODE_ENV=production node server.js -p $PORT",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -41,5 +42,8 @@
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "sass-loader": "^6.0.6"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
   }
 }
