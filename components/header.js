@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from 'next/link'
 
 export default () =>
   <header>
@@ -8,9 +8,9 @@ export default () =>
           <a className='navbar-item'>globo.com Open source</a>
         </Link>
         <div className='navbar-burger burger'>
-          <span></span>
-          <span></span>
-          <span></span>
+          <span />
+          <span />
+          <span />
         </div>
       </div>
       <div className='navbar-menu'>
