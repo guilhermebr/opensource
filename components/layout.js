@@ -18,6 +18,7 @@ const Layout = (props) =>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content={ props.pageDescription } />
       <meta name="author" content="Globo.com Developers Team" />
+      <link rel="shortcut icon" href="/static/img/favicon.png" />
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     <Header/>
