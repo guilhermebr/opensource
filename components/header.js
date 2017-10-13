@@ -4,7 +4,7 @@ export default () =>
   <header>
     <nav className='navbar'>
       <div className='navbar-brand'>
-        <Link href='/index'>
+        <Link href='/'>
           <a className='navbar-item'>globo.com Open source</a>
         </Link>
         <div className='navbar-burger burger'>
