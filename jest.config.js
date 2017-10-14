@@ -1,3 +1,8 @@
 module.exports = {
-  setupFiles: ['./jest.setup.js']
+  setupFiles: [
+    '<rootDir>/jest.setup.js'
+  ],
+  moduleNameMapper: {
+    '\\.(scss)$': '<rootDir>/__mocks__/fileMock.js'
+  }
 }
