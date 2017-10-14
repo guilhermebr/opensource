@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from './header'
 import stylesheet from '../styles/index.scss'
+import PropTypes from 'prop-types'
 
 const Layout = (props) =>
   <div>
@@ -24,6 +25,12 @@ const Layout = (props) =>
     <Header />
     {props.children}
   </div>
+
+Layout.propTypes = {
+  pageTitle: PropTypes.string,
+  pageDescription: PropTypes.string,
+  children: PropTypes.element
+}
 
 Layout.defaultProps = {
   pageTitle: 'Open Source - Globo.com',

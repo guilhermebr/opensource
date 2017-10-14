@@ -2,5 +2,5 @@ import Layout from '../components/layout'
 
 export default () =>
   <Layout>
-    GloboOpenSource Index Page
+    <div>GloboOpenSource Index Page</div>
   </Layout>
