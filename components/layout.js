@@ -1,10 +1,13 @@
+import PropTypes from 'prop-types'
 import Head from 'next/head'
 import Header from './header'
+import Footer from './footer'
 import stylesheet from '../styles/index.scss'
-import PropTypes from 'prop-types'
+
+const Aux = props => props.children
 
 const Layout = (props) =>
-  <div>
+  <Aux>
     <Head>
       <title>{ props.pageTitle }</title>
       <meta httpEquiv='X-UA-Compatible' content='IE=edge,chrome=1' />
@@ -23,8 +26,11 @@ const Layout = (props) =>
       <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
     </Head>
     <Header />
-    {props.children}
-  </div>
+    <main>
+      {props.children}
+    </main>
+    <Footer />
+  </Aux>
 
 Layout.propTypes = {
   pageTitle: PropTypes.string,
