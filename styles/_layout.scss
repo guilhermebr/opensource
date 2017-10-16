@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+
+body > div,
+#__next,
+#__next > div {
+  height: inherit;
+}
+
+#__next > div {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: var(--space) var(--space) 0;
+  width: 100%;
+}
+
+header,
+.footer {
+  flex: none;
+}
