@@ -20,7 +20,7 @@ describe('Component - <Header />', () => {
   test('should have a navbar brand home link', () => {
     const link = header.find('.navbar > .navbar-brand').find(Link)
     expect(link.prop('href')).toEqual('/')
-    expect(link.dive().text()).toEqual('globo.com Open source')
+    expect(link.dive().text()).toEqual('Open source')
   })
 
   test('should have a menu', () => {
