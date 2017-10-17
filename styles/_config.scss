@@ -1,5 +1,5 @@
 @import 'bulma/sass/utilities/initial-variables';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600,700');
 
 $family-serif: 'Open Sans', sans-serif;
 $family-primary: $family-serif;
@@ -10,7 +10,9 @@ $primary: $blue !default;
 
 $navbar-background-color: $blue-dark;
 $navbar-item-color: $white;
-$navbar-item-hover-color: $blue;
+$navbar-item-hover-color: $primary;
 $navbar-height: 7.25rem;
+
+$footer-background-color: $blue-dark;
 
 @import 'bulma/sass/utilities/all';

@@ -1,0 +1,11 @@
+.footer {
+  color: $white;
+  padding: 1.7rem;
+
+  a {
+    color: $white;
+    &:hover {
+      color: $primary;
+    }
+  }
+}

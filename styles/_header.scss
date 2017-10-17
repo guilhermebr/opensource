@@ -22,7 +22,7 @@
     background-position: left center;
     background-size: 5rem;
     padding-left: 5.5rem;
-    font-weight: 300;
+    font-weight: $weight-light;
 
     @include mobile {
       margin-left: 1rem;
