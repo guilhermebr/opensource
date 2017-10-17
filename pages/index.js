@@ -1,8 +1,23 @@
 import Layout from '../components/layout'
+import Link from 'next/link'
 
 export default () =>
   <Layout>
-    <div className='container'>
-      GloboOpenSource Index Page <a href='asas'>asasasasas</a>
-    </div>
+    <section className='hero is-large'>
+      <div className='hero-body'>
+        <div className='container'>
+          <h1 className='title'>
+            Addicted Developers
+          </h1>
+          <h2 className='subtitle'>
+            Unidos pelo código.
+          </h2>
+          <p>
+            <Link>
+              <a>Let's code!</a>
+            </Link>
+          </p>
+        </div>
+      </div>
+    </section>
   </Layout>
