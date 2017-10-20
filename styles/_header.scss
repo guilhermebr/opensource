@@ -9,27 +9,25 @@
     text-transform: uppercase;
   }
 
-  .navbar-burger {
-    color: $white;
-
-    @include mobile {
-      width: 4.25rem;
+  .navbar-item {
+    &:hover {
+      background-color: transparent;
     }
   }
 
+  .navbar-brand {
+    a:hover {
+      color: white;
+    }
+  }
+
+  .navbar-burger {
+    color: $white;
+  }
+
   .globo-logo {
-    background: url(http://s.glbimg.com/en/ho/static/rodape_globocom/img/logo_footer.svg?ec87d7347c11) no-repeat;
-    background-position: left center;
-    background-size: 5rem;
-    padding-left: 5.5rem;
+    margin-right: 0.3rem;
+    width: 5rem;
     font-weight: $weight-light;
-
-    @include mobile {
-      margin-left: 1rem;
-    }
-
-    &:hover {
-      color: $white;
-    }
   }
 }
