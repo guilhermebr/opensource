@@ -59,7 +59,7 @@ describe('Component - <Layout />', () => {
     })
 
     test('should render a meta og:image', () => {
-      expect(layout.find('meta[property="og:image"]').prop('content')).toBe('https://opensource.globo.com/assets/img/fb.png')
+      expect(layout.find('meta[property="og:image"]').prop('content')).toBe('/static/img/fb-logo.png')
     })
 
     test('should render a meta og:site_name', () => {
