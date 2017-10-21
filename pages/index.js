@@ -14,7 +14,7 @@ export default () =>
           </h2>
           <p>
             <Link>
-              <a>Let's code!</a>
+              <a className='hero-link'>Let's code!</a>
             </Link>
           </p>
         </div>

@@ -3,6 +3,14 @@ body {
   height: 100%;
 }
 
+body {
+  background-color: $blue-dark;
+  background-image: url('/static/img/landing-bg.svg');
+  background-size: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
 body > div:first-child,
 #__next,
 #__next > div {
@@ -22,4 +30,29 @@ main {
 
 .footer {
   flex: none;
+}
+
+.hero {
+  background-color: transparent;
+
+  .title,
+  .subtitle {
+    color: $white;
+  }
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .subtitle {
+    font-size: 1.7rem;
+  }
+  .hero-link {
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-style: italic;
+
+    &:hover {
+      color: $white;
+    }
+  }
 }
