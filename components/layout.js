@@ -15,7 +15,7 @@ const Layout = (props) =>
       <meta property='og:type' content='website' />
       <meta property='og:description' content={props.pageDescription} />
       <meta property='og:url' content='https://opensource.globo.com' />
-      <meta property='og:image' content='https://opensource.globo.com/assets/img/fb.png' />
+      <meta property='og:image' content='/static/img/fb-logo.png' />
       <meta property='og:site_name' content={props.pageTitle} />
       <meta property='og:locale' content='pt_BR' />
       <meta property='fb:app_id' content='496534050370989' />

@@ -6,7 +6,10 @@ export default () =>
       <nav className='navbar is-transparent'>
         <div className='navbar-brand'>
           <Link href='/'>
-            <a className='globo-logo navbar-item'>Open source</a>
+            <a className='navbar-item'>
+              <img className='globo-logo' src='/static/img/logo.svg' alt='Globo.com Open source' />
+              Open source
+            </a>
           </Link>
           <div className='navbar-burger burger'>
             <span />
