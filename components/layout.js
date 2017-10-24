@@ -40,7 +40,7 @@ Layout.propTypes = {
 
 Layout.defaultProps = {
   pageTitle: 'Open Source - Globo.com',
-  pageDescription: 'A globo.com ama a comunida open source! Conheça e contribua para os nossos projetos.'
+  pageDescription: 'A globo.com ama a comunidade open source! Conheça e contribua para os nossos projetos.'
 }
 
 export default Layout
